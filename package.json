@@ -1,0 +1,35 @@
+{
+  "name": "react-gif-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-modal": "^0.6.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "redux": "^3.5.0",
+    "redux-form": "^5.2.3",
+    "redux-promise": "^0.5.3",
+    "superagent": "^1.8.1"
+  }
+}
